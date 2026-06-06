@@ -17,7 +17,7 @@ TOKENS_PATH = os.path.join(DIR, "tokens.json")
 # Optional: ship a default Client ID so end-users don't have to register their own
 # EVE app. The Client ID is PUBLIC (not a secret); PKCE means there's no secret to
 # leak. A user's own saved foreman_config.json always overrides this.
-BUNDLED_CLIENT_ID = ""
+BUNDLED_CLIENT_ID = "191b3ea3889f4faba9f2e3045b508b66"  # Honeybadger Software's EVE app (public ID, PKCE — no secret)
 
 
 def _load(path):

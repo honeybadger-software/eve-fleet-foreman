@@ -6,6 +6,9 @@ foreman_config.json
 overlay.py
 run_overlay.bat
 
+# Dev-only tooling (not shipped)
+capture_shots.py
+
 # Python
 __pycache__/
 *.pyc

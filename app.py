@@ -469,10 +469,16 @@ ui.timer(0.2, _render_login_status, once=True)
 ui.timer(300, refresh)
 ui.timer(3.0, _login_poll)  # reflect new logins from the SSO callback
 
-with ui.footer().classes("bg-transparent"):
-    ui.label("EVE Online and the EVE logo are registered trademarks of CCP hf. "
+with ui.footer().classes("bg-transparent items-center gap-2"):
+    ui.label("⛏ EVE Fleet Foreman").classes("text-xs opacity-80")
+    ui.label("· built by").classes("text-xs opacity-50")
+    ui.link("Honeybadger Software", "https://honeybadger.software", new_tab=True).classes("text-xs text-amber-400")
+    ui.space()
+    ui.label("EVE Online & the EVE logo are registered trademarks of CCP hf. "
              "Unofficial tool, not affiliated with CCP. Market data: Fuzzwork.").classes("text-xs opacity-50")
 
 if __name__ in {"__main__", "__mp_main__"}:
     show = os.environ.get("FOREMAN_SHOW", "1") != "0"
-    ui.run(title="EVE Fleet Foreman", port=8088, reload=False, show=show)
+    # Default 8088 must match your EVE app's callback URL; override only for dev/testing.
+    port = int(os.environ.get("FOREMAN_PORT", "8088"))
+    ui.run(title="EVE Fleet Foreman", port=port, reload=False, show=show)

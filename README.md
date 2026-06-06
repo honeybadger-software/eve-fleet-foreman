@@ -1,5 +1,7 @@
 # ⛏ EVE Fleet Foreman
 
+*A free, open-source tool by [Honeybadger Software](https://honeybadger.software).*
+
 **A free fleet-mining assistant for EVE Online.** It answers the questions that
 actually make mining pay — *what should I mine right now?*, *should I refine or
 sell?*, *what's my fleet making?*, and *how do we split the ore fairly?* — using
@@ -24,6 +26,20 @@ live Jita market data and your own Mining Ledger.
 | **Appraise & Split** | Paste a pile of ore → total ISK + a fair per-member split. No login needed. |
 
 ---
+
+## 📸 Screenshots
+
+**What to Mine** — every ore ranked by ISK/m³ (raw vs refined) from live Jita prices:
+
+![What to Mine](screenshots/what-to-mine.png)
+
+**Refine** — an instant "sell raw vs reprocess" verdict with the full mineral breakdown:
+
+![Refine](screenshots/refine.png)
+
+**Mining Ledger** — log in with EVE and auto-split the fleet's mining fairly:
+
+![Mining Ledger](screenshots/mining-ledger.png)
 
 ## 🚀 Install & run
 
@@ -114,6 +130,18 @@ feedback especially welcome.
   ore, and compression math.
 
 ---
+
+## 👋 Built by Honeybadger Software
+
+EVE Fleet Foreman is built and maintained by **[Honeybadger Software](https://honeybadger.software)**
+— an independent software studio shipping practical, well-engineered tools across
+gaming, automotive, and industrial/hardware automation. This is real, supported
+software, not a throwaway script.
+
+- 🌐 More projects & contact: **[honeybadger.software](https://honeybadger.software)**
+- 💬 Got an idea, a bug, or want something custom built? Reach out via the site, or open an Issue here.
+
+If Foreman saves your fleet some time, a ⭐ on the repo — and a share with your corp — really helps.
 
 ## 🙏 Credits & legal
 
