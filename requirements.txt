@@ -1,0 +1,4 @@
+# EVE Fleet Foreman — free version dependencies
+# Install with:  pip install -r requirements.txt
+nicegui>=2.0
+requests>=2.28

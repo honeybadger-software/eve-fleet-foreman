@@ -1,0 +1,13 @@
+# Local secrets / per-user data — never commit
+tokens.json
+foreman_config.json
+
+# Deluxe-only — kept out of the free release
+overlay.py
+run_overlay.bat
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
