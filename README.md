@@ -26,8 +26,6 @@ A free fleet-mining assistant for EVE Online, by [Honey Badger Software](https:/
 
 **Mining Ledger.** Log in with EVE and split the fleet's mining fairly.
 
-![Mining Ledger](screenshots/mining-ledger.png)
-
 ## Install and run from source
 
 **You need [Python 3.10+](https://www.python.org/downloads/)** (tick *Add Python to PATH* during install).
